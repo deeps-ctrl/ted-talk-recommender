@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #ff7b54;
+  --light-color: #f8f4ea;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+/* Genre */
+
+.genre-btn {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: var(--primary-color);
+  text-align: center;
+}
+
+/* list-items */
+
+.list-items {
+  margin: auto;
+  width: 50%;
+}
+
+.genre-item {
+  background: var(--light-color);
+  border-radius: 0.5rem;
+}
+
+li {
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
